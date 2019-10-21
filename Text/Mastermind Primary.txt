@@ -1,0 +1,16 @@
+Mastermind Primary
+=======================
+
+01 - 15:  Beast Mastery
+
+16 - 30:  Demon Summoning
+
+31 - 44:  Mercenaries
+
+45 - 58:  Necromancy
+
+59 - 72:  Ninjas
+
+73 - 86:  Robots
+
+87 - 00:  Thugs

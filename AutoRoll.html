@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript" src="AutoScript.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h2> COH Random Characters</h2>
+<p> This will allow you to create a City of Heroes Character by clicking a button.</p>
+
+<br>
+<section class ="container">
+<div>
+<Form>
+
+<h1> Character</h1><br>
+<input type="checkbox" id="Epic" name="Epic" > Include Epic AT <br>
+
+<button type="button" onclick="ClearCharacter()">Clear</button>
+<button type="button" onclick="RandomChar()">Auto-Generate</button>
+
+<br>
+<table id ="Character" class ="vis">
+<tr><td> Origin:</td><td><input type="text" id="Origin" value="enter" size="35"></td></tr>
+<tr><td>AT:</td><td><input type="text" id="AT" size="35"></td></tr>
+<tr><td>Primary:</td><td> <input type="text" id="Primary" size="35"></td></tr>
+<tr><td>Secondary:</td><td><input type="text" id="Secondary" size="35"></td></tr>
+</table><br>
+
+</form>
+</div>
+
+</section>
+<br><br>
+
+<section class ="container" id="tables">
+<div id = "RollTables" class ="vis">
+<h1>Step Three: Powers</h1>
+</div>
+<br>
+<br>
+
+<section class ="container">
+<div class ="one" id = "OriginSpot">
+<h1> Step One: Origin</h1><br>
+<table id="OriginTable"> <tr><th> Roll</th><th>Origin</th></tr><tr><td>01 - 20</td><td>Magic</td></tr><tr><td>21 - 40</td><td>Mutation</td></tr><tr><td>41 - 60</td><td>Natural</td></tr><tr><td>61 - 80</td><td>Science</td></tr><tr><td>81 - 00</td><td>Tech</td></tr></table>
+
+</div>
+
+<div class ="two" id = "ATSpot">
+<h1> Step Two: AT</h1>
+<button type="button" onclick="toggleEpic(true)" id="epicOn">Allow Epic ATs</button>
+<button type="button" onclick="toggleEpic(false)"id= "epicOff">No Epic ATs</button>
+<br>
+<table id="ATTable"> <tr><th> Roll</th><th>AT</th><th>Primary</th><th>Secondary</th></tr><tr><td>01 - 09</td><td>Blaster</td><td>Blaster Primary</td><td>Blaster Secondary</td></tr><tr><td>10 - 18</td><td>Brute</td><td>Tank Secondary</td><td>Tank Primary</td></tr><tr><td>19 - 27</td><td>Controller</td><td>Controller Primary</td><td>Defender Primary</td></tr><tr><td>28 - 36</td><td>Corruptor</td><td>Blaster Primary</td><td>Defender Primary</td></tr><tr><td>37 - 45</td><td>Defender</td><td>Defender Primary</td><td>Blaster Primary</td></tr><tr><td>46 - 54</td><td>Dominator</td><td>Controller Primary</td><td>Dominator Secondary</td></tr><tr><td>55 - 63</td><td>Mastermind</td><td>Mastermind Primary</td><td>Defender Primary</td></tr><tr><td>64 - 72</td><td>Scrapper</td><td>Scrapper Primary</td><td>Scrapper Secondary</td></tr><tr><td>73 - 81</td><td>Sentinel</td><td>Blaster Primary</td><td>Scrapper Secondary</td></tr><tr><td>82 - 90</td><td>Stalker</td><td>Stalker Primary</td><td>Scrapper Secondary</td></tr><tr><td>90 - 00</td><td>Tanker</td><td>Tank Primary</td><td>Tank Secondary</td></tr></table>
+<table id="ATEpicTable"> <tr><th> Roll</th><th>ATEpic</th><th>Primary</th><th>Secondary</th></tr><tr><td>01 - 08</td><td>Blaster</td><td>Blaster Primary</td><td>Blaster Secondary</td></tr><tr><td>09 - 16</td><td>Brute</td><td>Tank Secondary</td><td>Tank Primary</td></tr><tr><td>17 - 24</td><td>Controller</td><td>Controller</td><td>Defender Primary</td></tr><tr><td>25 - 32</td><td>Corruptor</td><td>Blaster Primary</td><td>Defender Primary</td></tr><tr><td>33 - 40</td><td>Defender</td><td>Defender Primary</td><td>Blaster Primary</td></tr><tr><td>41 - 48</td><td>Dominator</td><td>Controller Primary</td><td>Dominator Secondary</td></tr><tr><td>49 - 56</td><td>Mastermind</td><td>Mastermind Primary</td><td>Defender Primary</td></tr><tr><td>57 - 64</td><td>Scrapper</td><td>Scrapper Primary</td><td>Scrapper Secondary</td></tr><tr><td>65 - 72</td><td>Sentinel</td><td>Blaster Primary</td><td>Scrapper Secondary</td></tr><tr><td>73 - 80</td><td>Stalker</td><td>Stalker Primary</td><td>Scrapper Secondary</td></tr><tr><td>81 - 88</td><td>Tanker</td><td>Tank Primary</td><td>Tank Secondary</td></tr><tr><td>89 - 90</td><td>Arachnos Crab Soldier</td><td>Arachnos Crab Soldier</td><td>Arachnos Crab Soldier</td></tr><tr><td>91 - 92</td><td>Arachnos Bane Spider Soldier</td><td>Arachnos Bane Spider Soldier</td><td>Arachnos Bane Spider Soldier</td></tr><tr><td>93 - 94</td><td>Arachnos Night Widow</td><td>Arachnos Night Widow</td><td>Arachnos Night Widow</td></tr><tr><td>95 - 96</td><td>Arachnos Fortunata</td><td>Arachnos Fortunata</td><td>Arachnos Fortunata</td></tr><tr><td>97 - 98</td><td>Peacebringer</td><td>Peacebringer</td><td>Peacebringer</td></tr><tr><td>99 - 00</td><td>Warshade</td><td>Warshade</td><td>Warshade</td></tr></table>
+</div>
+
+<div class ="thre" id="RollTables">
+<h1>Step Three: Powers</h1>
+<button type="button" onclick="toggleButton('Blaster PrimaryTable')">Blaster Primary</button>
+<button type="button" onclick="toggleButton('Blaster SecondaryTable')">Blaster Secondary</button>
+<button type="button" onclick="toggleButton('Controller PrimaryTable')">Controller Primary</button>
+<button type="button" onclick="toggleButton('Defender PrimaryTable')">Defender Primary</button>
+<button type="button" onclick="toggleButton('Dominator SecondaryTable')">Dominator Secondary</button> 
+<button type="button" onclick="toggleButton('Mastermind PrimaryTable')">Mastermind Primary</button>
+<button type="button" onclick="toggleButton('Scrapper PrimaryTable')">Scrapper Primary</button>
+<button type="button" onclick="toggleButton('Scrapper SecondaryTable')">Scrapper Secondary</button>
+<button type="button" onclick="toggleButton('Stalker PrimaryTable')">Stalker Primary</button>
+<button type="button" onclick="toggleButton('Tank PrimaryTable')">Tank Primary</button>
+<button type="button" onclick="toggleButton('Tank SecondaryTable')">Tank Secondary</button>
+<br>
+
+<table id="Blaster PrimaryTable"> <tr><th> Roll</th><th>Blaster Primary</th></tr><tr><td>01 - 08</td><td>Archery</td></tr><tr><td>09 - 16</td><td>Assault Rifle</td></tr><tr><td>17 - 24</td><td>Beam Rifle</td></tr><tr><td>25 - 32</td><td>Dark Blast</td></tr><tr><td>33 - 40</td><td>Dual Pistols</td></tr><tr><td>41 - 48</td><td>Electrical Blast</td></tr><tr><td>49 - 56</td><td>Energy Blast</td></tr><tr><td>57 - 64</td><td>Fire Blast</td></tr><tr><td>65 - 72</td><td>Ice Blast</td></tr><tr><td>73 - 79</td><td>Psychic Blast</td></tr><tr><td>80 - 86</td><td>Radiation Blast</td></tr><tr><td>87 - 93</td><td>Sonic Attack</td></tr><tr><td>94 - 00</td><td>Water Blast</td></tr></table>
+<table id="Blaster SecondaryTable"> <tr><th> Roll</th><th>Blaster Secondary</th></tr><tr><td>01 - 08</td><td>Atomic Manipulation</td></tr><tr><td>09 - 16</td><td>Darkness Manipulation</td></tr><tr><td>17 - 24</td><td>Devices</td></tr><tr><td>25 - 32</td><td>Electricity Manipulation</td></tr><tr><td>33 - 40</td><td>Energy Manipulation</td></tr><tr><td>41 - 48</td><td>Fire Manipulation</td></tr><tr><td>49 - 56</td><td>Ice Manipulation</td></tr><tr><td>57 - 64</td><td>Martial Combat</td></tr><tr><td>65 - 72</td><td>Mental Manipulation</td></tr><tr><td>73 - 79</td><td>Ninja Training</td></tr><tr><td>80 - 86</td><td>Plant Manipulation</td></tr><tr><td>87 - 93</td><td>Tactical Arrow</td></tr><tr><td>94 - 00</td><td>Temporal Manipulation</td></tr></table>
+<table id="Controller PrimaryTable"> <tr><th> Roll</th><th>Controller Primary</th></tr><tr><td>01 - 11</td><td>Darkness Control</td></tr><tr><td>12 - 22</td><td>Earth Control</td></tr><tr><td>23 - 33</td><td>Electric Control</td></tr><tr><td>34 - 44</td><td>Fire Control</td></tr><tr><td>45 - 55</td><td>Gravity Control</td></tr><tr><td>56 - 66</td><td>Ice Control</td></tr><tr><td>67 - 77</td><td>Illusion Control</td></tr><tr><td>78 - 89</td><td>Mind Control</td></tr><tr><td>90 - 00</td><td>Plant Control</td></tr></table>
+<table id="Defender PrimaryTable"> <tr><th> Roll</th><th>Defender Primary</th></tr><tr><td>01 - 07</td><td>Cold Domination</td></tr><tr><td>08 - 14</td><td>Darkness Affinity</td></tr><tr><td>15 - 21</td><td>Empathy</td></tr><tr><td>22 - 28</td><td>Force Field</td></tr><tr><td>29 - 35</td><td>Kinetics</td></tr><tr><td>36 - 42</td><td>Nature Affinity</td></tr><tr><td>43 - 49</td><td>Pain Domination</td></tr><tr><td>50 - 56</td><td>Poison</td></tr><tr><td>57 - 63</td><td>Radiation Emission</td></tr><tr><td>64 - 70</td><td>Sonic Resonance</td></tr><tr><td>71 - 76</td><td>Storm Summoning</td></tr><tr><td>77 - 82</td><td>Thermal Radiation</td></tr><tr><td>83 - 88</td><td>Time Manipulation</td></tr><tr><td>89 - 94</td><td>Traps</td></tr><tr><td>95 - 00</td><td>Trick Arrow</td></tr></table>
+<table id="Dominator SecondaryTable"> <tr><th> Roll</th><th>Dominator Secondary</th></tr><tr><td>01 - 09</td><td>Dark Assault</td></tr><tr><td>10 - 18</td><td>Earth Assault</td></tr><tr><td>19 - 27</td><td>Electricity Assault</td></tr><tr><td>28 - 36</td><td>Energy Assault</td></tr><tr><td>37 - 45</td><td>Fiery Assault</td></tr><tr><td>46 - 54</td><td>Icy Assault</td></tr><tr><td>55 - 63</td><td>Martial Assault</td></tr><tr><td>64 - 72</td><td>Psionic Assault</td></tr><tr><td>73 - 81</td><td>Radioactive Assault</td></tr><tr><td>82 - 91</td><td>Savage Assault</td></tr><tr><td>92 - 00</td><td>Thorny Assault</td></tr></table>
+<table id="Mastermind PrimaryTable"> <tr><th> Roll</th><th>Mastermind Primary</th></tr><tr><td>01 - 15</td><td>Beast Mastery</td></tr><tr><td>16 - 30</td><td>Demon Summoning</td></tr><tr><td>31 - 44</td><td>Mercenaries</td></tr><tr><td>45 - 58</td><td>Necromancy</td></tr><tr><td>59 - 72</td><td>Ninjas</td></tr><tr><td>73 - 86</td><td>Robots</td></tr><tr><td>87 - 00</td><td>Thugs</td></tr></table>
+<table id="Scrapper PrimaryTable"> <tr><th> Roll</th><th>Scrapper Primary</th></tr><tr><td>01 - 06</td><td>Battle Axe</td></tr><tr><td>07 - 12</td><td>Broadsword</td></tr><tr><td>13 - 18</td><td>Claws</td></tr><tr><td>19 - 24</td><td>Dark Melee</td></tr><tr><td>25 - 30</td><td>Dual Blades</td></tr><tr><td>31 - 35</td><td>Electrical Melee</td></tr><tr><td>36 - 40</td><td>Fiery Melee</td></tr><tr><td>41 - 45</td><td>Ice Melee</td></tr><tr><td>46 - 50</td><td>Katana</td></tr><tr><td>51 - 55</td><td>Kinetic Melee</td></tr><tr><td>56 - 60</td><td>Martial Arts</td></tr><tr><td>61 - 65</td><td>Psionic Melee</td></tr><tr><td>66 - 70</td><td>Radiation Melee</td></tr><tr><td>71 - 75</td><td>Savage Melee</td></tr><tr><td>76 - 80</td><td>Spines</td></tr><tr><td>81 - 85</td><td>Staff Fighting</td></tr><tr><td>86 - 90</td><td>Street Justice</td></tr><tr><td>91 - 95</td><td>Titan Weapons</td></tr><tr><td>96 - 00</td><td>War Mace</td></tr></table>
+<table id="Scrapper SecondaryTable"> <tr><th> Roll</th><th>Scrapper Secondary</th></tr><tr><td>01 - 08</td><td>Bio Armor</td></tr><tr><td>09 - 16</td><td>Dark Armor</td></tr><tr><td>17 - 24</td><td>Electric Armor</td></tr><tr><td>25 - 32</td><td>Energy Aura</td></tr><tr><td>33 - 40</td><td>Fiery Aura</td></tr><tr><td>40 - 48</td><td>Ice Armor</td></tr><tr><td>49 - 56</td><td>Invulnerability</td></tr><tr><td>57 - 64</td><td>Ninjitsu</td></tr><tr><td>65 - 72</td><td>Radiation Armor</td></tr><tr><td>73 - 79</td><td>Regeneration</td></tr><tr><td>80 - 86</td><td>Shield Defense</td></tr><tr><td>87 - 93</td><td>Super Reflexes</td></tr><tr><td>94 - 00</td><td>Willpower</td></tr></table>
+<table id="Stalker PrimaryTable"> <tr><th> Roll</th><th>Stalker Primary</th></tr><tr><td>01 - 06</td><td>Broadsword</td></tr><tr><td>07 - 12</td><td>Claws</td></tr><tr><td>13 - 18</td><td>Dark Melee</td></tr><tr><td>19 - 24</td><td>Dual Blades</td></tr><tr><td>25 - 30</td><td>Electrical Melee</td></tr><tr><td>31 - 36</td><td>Energy Melee</td></tr><tr><td>37 - 42</td><td>Fiery Melee</td></tr><tr><td>43 - 48</td><td>Ice Melee</td></tr><tr><td>49 - 54</td><td>Kinetic Melee</td></tr><tr><td>55 - 60</td><td>Martial Arts</td></tr><tr><td>61 - 66</td><td>Ninja Blade</td></tr><tr><td>67 - 72</td><td>Psionic Melee</td></tr><tr><td>73 - 78</td><td>Radiation Melee</td></tr><tr><td>79 - 84</td><td>Savage Melee</td></tr><tr><td>85 - 90</td><td>Spines</td></tr><tr><td>91 - 95</td><td>Staff Fighting</td></tr><tr><td>96 - 00</td><td>Street Justice</td></tr></table>
+<table id="Tank PrimaryTable"> <tr><th> Roll</th><th>Tank Primary</th></tr><tr><td>01 - 09</td><td>Bio Armor</td></tr><tr><td>10 - 18</td><td>Dark Armor</td></tr><tr><td>19 - 27</td><td>Electric Armor</td></tr><tr><td>28 - 36</td><td>Fiery Aura</td></tr><tr><td>37 - 44</td><td>Ice Armor</td></tr><tr><td>38 - 52</td><td>Invulnerability</td></tr><tr><td>53 - 60</td><td>Radiation Armor</td></tr><tr><td>61 - 68</td><td>Regeneration</td></tr><tr><td>69 - 76</td><td>Shield Defense</td></tr><tr><td>77 - 84</td><td>Stone Armor</td></tr><tr><td>85 - 92</td><td>Super Reflexes</td></tr><tr><td>93 - 00</td><td>Willpower</td></tr></table>
+<table id="Tank SecondaryTable"> <tr><th> Roll</th><th>Tank Secondary</th></tr><tr><td>01 - 04</td><td>Battle Axe</td></tr><tr><td>05 - 08</td><td>Broadsword</td></tr><tr><td>09 - 12</td><td>Claws</td></tr><tr><td>13 - 16</td><td>Dark Melee</td></tr><tr><td>17 - 20</td><td>Dual Blades</td></tr><tr><td>21 - 24</td><td>Electrical Melee</td></tr><tr><td>25 - 28</td><td>Energy Melee</td></tr><tr><td>29 - 32</td><td>Fiery Melee</td></tr><tr><td>33 - 36</td><td>Ice Melee</td></tr><tr><td>37 - 40</td><td>Katana</td></tr><tr><td>41 - 45</td><td>Kinetic Melee</td></tr><tr><td>46 - 50</td><td>Martial Arts</td></tr><tr><td>51 - 55</td><td>Psionic Melee</td></tr><tr><td>56 - 60</td><td>Radiation Melee</td></tr><tr><td>61 - 65</td><td>Savage Melee</td></tr><tr><td>66 - 70</td><td>Spines</td></tr><tr><td>71 - 75</td><td>Staff Fighting</td></tr><tr><td>76 - 80</td><td>Stone Melee</td></tr><tr><td>81 - 85</td><td>Street Justice</td></tr><tr><td>86 - 90</td><td>Super Strength</td></tr><tr><td>91 - 95</td><td>Titan Weapons</td></tr><tr><td>96 - 00</td><td>War Mace</td></tr></table>
+
+</div>
+</section>
+<br>
+
+
+
+<br>
+
+
+</body>
+</html>

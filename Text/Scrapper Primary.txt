@@ -1,0 +1,44 @@
+Scrapper Primary
+=======================
+
+01 - 06:  Battle Axe
+
+07 - 12:  Broadsword
+
+13 - 18:  Claws
+
+19 - 24:  Dark Melee
+
+25 - 30:  Dual Blades
+
+31 - 35:  Electrical Melee
+
+36 - 40:  Fiery Melee
+
+41 - 45:  Ice Melee 
+
+46 - 50:  Katana
+
+51 - 55:  Kinetic Melee
+
+56 - 60:  Martial Arts
+
+61 - 65:  Psionic Melee
+
+66 - 70:  Radiation Melee
+
+71 - 75:  Savage Melee
+
+76 - 80:  Spines
+
+81 - 85:  Staff Fighting
+
+86 - 90:  Street Justice
+
+91 - 95:  Titan Weapons
+
+96 - 00:  War Mace
+
+
+
+

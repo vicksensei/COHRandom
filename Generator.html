@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript" src="buttons.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="loadAction()">
+
+
+<textarea id="html"></textarea>
+
+<h2> COH Random Characters</h2>
+<p> This will allow you to create a City of Heroes Character useing random dice rolls, or clicking a button.</p>
+
+<br>
+<section class ="container">
+<div class ="one">
+<h1> Character</h1><br>
+<input type="checkbox" id="Epic" name="Epic" > Include Epic AT <br style="clear: left"><br>
+<table id ="Character" class ="vis">
+<tr><td> Rolls:</td>
+	<td>1:<input type="text" id="ROLL1" value="1-100" size="3">	
+	2:<input type="text" id="ROLL2" value="1-100" size="3">	
+	3:<input type="text" id="ROLL3" value="1-100" size="3">	
+	4:<input type="text" id="ROLL4" value="1-100" size="3">	</td></tr>
+<tr><td> Origin:</td><td><input type="text" id="Origin" value="enter" size="35"></td></tr>
+<tr><td>AT:</td><td><input type="text" id="AT" size="35"></td></tr>
+<tr><td>Primary:</td><td> <input type="text" id="Primary" size="35"></td></tr>
+<tr><td>Secondary:</td><td><input type="text" id="Secondary" size="35"></td></tr>
+</table><br>
+<button type="button" onclick="ClearCharacter()">Clear</button>
+<button type="button" onclick="">Get From Rolls</button><br>
+
+
+Not a fan or rolling Dice? <br> 
+<button type="button" onclick="RandomChar()">Auto-Generate</button>
+<Form>
+</form>
+</div>
+<div class ="two" id = "OriginSpot">
+<h1> Step One: Origin</h1><br>
+</div>
+
+<div class ="three" id = "ATSpot">
+<h1> Step Two: AT</h1>
+
+</div>
+</section>
+<br><br>
+<!--
+<button type="button" onclick="toggleButton('RollTables')">Toggle Dice Roll Tables</button><br>
+<h3> Roll Tables </h3> 
+<p>Roll and click on your Result to set it.</p>
+-->
+
+<section class ="container">
+<div id = "RollTables" class ="vis">
+<h1>Step Three: Powers</h1>
+<!--
+<button type="button" onclick="toggleButton('OriginTable')">Origin</button>
+<button type="button" onclick="toggleButton('ATTable')">AT (No Epics)</button>
+<button type="button" onclick="toggleButton('ATEpicTable')">AT (With Epics)</button><br>
+
+
+<button type="button" onclick="toggleButton('Blaster PrimaryTable')">Blaster Primary</button>
+<button type="button" onclick="toggleButton('Blaster SecondaryTable')">Blaster Secondary</button>
+<button type="button" onclick="toggleButton('Controller PrimaryTable')">Controller Primary</button>
+<button type="button" onclick="toggleButton('Defender PrimaryTable')">Defender Primary</button>
+<button type="button" onclick="toggleButton('Dominator SecondaryTable')">Dominator Secondary</button> 
+<button type="button" onclick="toggleButton('Mastermind PrimaryTable')">Mastermind Primary</button>
+<button type="button" onclick="toggleButton('Scrapper PrimaryTable')">Scrapper Primary</button>
+<button type="button" onclick="toggleButton('Scrapper SecondaryTable')">Scrapper Secondary</button>
+<button type="button" onclick="toggleButton('Stalker PrimaryTable')">Stalker Primary</button>
+<button type="button" onclick="toggleButton('Tank PrimaryTable')">Tank Primary</button>
+<button type="button" onclick="toggleButton('Tank SecondaryTable')">Tank Secondary</button>
+-->
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div id = "Auto-Roll" >
+<br>
+</div>
+</section>
+
+
+
+<br>
+
+
+</body>
+</html>

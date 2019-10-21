@@ -1,0 +1,24 @@
+Dominator Secondary
+=====================
+
+01 - 09:  Dark Assault
+
+10 - 18:  Earth Assault
+
+19 - 27:  Electricity Assault
+
+28 - 36:  Energy Assault
+
+37 - 45:  Fiery Assault
+
+46 - 54:  Icy Assault
+
+55 - 63:  Martial Assault
+
+64 - 72:  Psionic Assault
+
+73 - 81:  Radioactive Assault
+
+82 - 91:  Savage Assault
+
+92 - 00:  Thorny Assault

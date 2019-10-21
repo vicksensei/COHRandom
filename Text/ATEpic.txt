@@ -1,0 +1,37 @@
+Archetype List
+=================
+
+01 - 08:  Blaster  (Blaster Primary / Blaster Secondary)
+
+09 - 16:  Brute  (Tank Secondary / Tank Primary)
+
+17 - 24:  Controller  (Controller / Defender Primary)
+
+25 - 32:  Corruptor  (Blaster Primary / Defender Primary)
+
+33 - 40:  Defender  (Defender Primary / Blaster Primary)
+
+41 - 48:  Dominator  (Controller Primary / Dominator Secondary)
+
+49 - 56:  Mastermind  (Mastermind Primary / Defender Primary)
+
+57 - 64:  Scrapper  (Scrapper Primary / Scrapper Secondary)
+
+65 - 72:  Sentinel  (Blaster Primary / Scrapper Secondary)
+
+73 - 80:  Stalker  (Stalker Primary / Scrapper Secondary)
+
+81 - 88:  Tanker  (Tank Primary / Tank Secondary)
+
+89 - 90:  Arachnos Crab Soldier
+
+91 - 92:  Arachnos Bane Spider Soldier
+
+93 - 94:  Arachnos Night Widow
+
+95 - 96:  Arachnos Fortunata
+
+97 - 98:  Peacebringer
+
+99 - 00:  Warshade
+

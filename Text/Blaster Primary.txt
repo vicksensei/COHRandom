@@ -1,0 +1,28 @@
+Blaster Primary
+===========================
+
+01 - 08:  Archery
+
+09 - 16:  Assault Rifle
+
+17 - 24:  Beam Rifle
+
+25 - 32:  Dark Blast
+
+33 - 40:  Dual Pistols
+
+41 - 48:  Electrical Blast
+
+49 - 56:  Energy Blast
+
+57 - 64:  Fire Blast
+
+65 - 72:  Ice Blast
+
+73 - 79:  Psychic Blast
+
+80 - 86:  Radiation Blast
+
+87 - 93:  Sonic Attack
+
+94 - 00:  Water Blast  

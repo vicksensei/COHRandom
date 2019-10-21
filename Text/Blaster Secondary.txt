@@ -1,0 +1,28 @@
+Blaster Secondary
+===========================
+
+01 - 08:  Atomic Manipulation
+
+09 - 16:  Darkness Manipulation
+
+17 - 24:  Devices
+
+25 - 32:  Electricity Manipulation
+
+33 - 40:  Energy Manipulation
+
+41 - 48:  Fire Manipulation
+
+49 - 56:  Ice Manipulation
+
+57 - 64:  Martial Combat
+
+65 - 72:  Mental Manipulation
+
+73 - 79:  Ninja Training
+
+80 - 86:  Plant Manipulation
+
+87 - 93:  Tactical Arrow
+
+94 - 00:  Temporal Manipulation

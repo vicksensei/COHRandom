@@ -1,0 +1,32 @@
+Defender Primary
+===========================
+
+01 - 07:  Cold Domination
+
+08 - 14:  Darkness Affinity
+
+15 - 21:  Empathy
+
+22 - 28:  Force Field
+
+29 - 35:  Kinetics
+
+36 - 42:  Nature Affinity
+
+43 - 49:  Pain Domination
+
+50 - 56:  Poison
+
+57 - 63:  Radiation Emission
+
+64 - 70:  Sonic Resonance
+
+71 - 76:  Storm Summoning
+
+77 - 82:  Thermal Radiation
+
+83 - 88:  Time Manipulation
+
+89 - 94:  Traps
+
+95 - 00:  Trick Arrow

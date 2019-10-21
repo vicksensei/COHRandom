@@ -1,0 +1,13 @@
+Origins
+=============
+
+01 - 20:  Magic
+
+21 - 40:  Mutation
+
+41 - 60:  Natural
+
+61 - 80:  Science
+
+81 - 00:  Tech
+

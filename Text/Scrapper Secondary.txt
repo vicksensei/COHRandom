@@ -1,0 +1,28 @@
+Scrapper Secondary
+========================
+
+01 - 08:  Bio Armor
+
+09 - 16:  Dark Armor
+
+17 - 24:  Electric Armor
+
+25 - 32:  Energy Aura
+
+33 - 40:  Fiery Aura
+
+40 - 48:  Ice Armor
+
+49 - 56:  Invulnerability
+
+57 - 64:  Ninjitsu
+
+65 - 72:  Radiation Armor
+
+73 - 79:  Regeneration
+
+80 - 86:  Shield Defense
+
+87 - 93:  Super Reflexes
+
+94 - 00:  Willpower

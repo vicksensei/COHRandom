@@ -1,0 +1,51 @@
+Tanker Secondary
+============================
+
+01 - 04:  Battle Axe
+
+05 - 08:  Broadsword
+
+09 - 12:  Claws
+
+13 - 16:  Dark Melee
+
+17 - 20:  Dual Blades
+
+21 - 24:  Electrical Melee
+
+25 - 28:  Energy Melee
+
+29 - 32:  Fiery Melee
+
+33 - 36:  Ice Melee
+
+37 - 40:  Katana
+
+41 - 45:  Kinetic Melee
+
+46 - 50:  Martial Arts
+
+51 - 55:  Psionic Melee
+
+56 - 60:  Radiation Melee
+
+61 - 65:  Savage Melee
+
+66 - 70:  Spines
+
+71 - 75:  Staff Fighting
+
+76 - 80:  Stone Melee
+
+81 - 85:  Street Justice
+
+86 - 90:  Super Strength
+
+91 - 95:  Titan Weapons
+
+96 - 00:  War Mace
+
+
+
+
+

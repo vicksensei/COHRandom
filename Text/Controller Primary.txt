@@ -1,0 +1,21 @@
+Controller Primary
+===========================
+
+01 - 11:  Darkness Control
+
+12 - 22:  Earth Control
+
+23 - 33:  Electric Control
+
+34 - 44:  Fire Control
+
+45 - 55:  Gravity Control
+
+56 - 66:  Ice Control
+
+67 - 77:  Illusion Control
+
+78 - 89:  Mind Control
+
+90 - 00:  Plant Control
+

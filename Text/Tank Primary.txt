@@ -1,0 +1,26 @@
+Tanker Primary
+============================
+
+01 - 09:  Bio Armor
+
+10 - 18:  Dark Armor
+
+19 - 27:  Electric Armor
+
+28 - 36:  Fiery Aura
+
+37 - 44:  Ice Armor
+
+38 - 52:  Invulnerability
+
+53 - 60:  Radiation Armor
+
+61 - 68:  Regeneration
+
+69 - 76:  Shield Defense
+
+77 - 84:  Stone Armor
+
+85 - 92:  Super Reflexes
+
+93 - 00:  Willpower

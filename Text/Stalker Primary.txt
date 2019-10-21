@@ -1,0 +1,36 @@
+Stalker Primary
+==============================
+
+01 - 06:  Broadsword
+
+07 - 12:  Claws
+
+13 - 18:  Dark Melee
+
+19 - 24:  Dual Blades
+
+25 - 30:  Electrical Melee
+
+31 - 36:  Energy Melee
+
+37 - 42:  Fiery Melee
+
+43 - 48:  Ice Melee
+
+49 - 54:  Kinetic Melee
+
+55 - 60:  Martial Arts
+
+61 - 66:  Ninja Blade
+
+67 - 72:  Psionic Melee
+
+73 - 78:  Radiation Melee
+
+79 - 84:  Savage Melee
+
+85 - 90:  Spines
+
+91 - 95:  Staff Fighting
+
+96 - 00:  Street Justice

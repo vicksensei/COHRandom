@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript" src="rolltableScript.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h2> COH Random Character Roll Tables</h2>
+<p> This will allow you to create a City of Heroes Character useing random dice rolls.</p>
+<button type="button" onclick="start()" id="startButton">Start</button>
+
+<br>
+<section class ="container" id="all">
+<div class ="one" id = "OriginSpot">
+<h1> Step One: Origin</h1><br>
+</div>
+
+<div class ="two" id = "ATSpot">
+<h1> Step Two: AT</h1>
+<button type="button" onclick="toggleEpic(true)" id="epicOn">Allow Epic ATs</button>
+<button type="button" onclick="toggleEpic(false)"id= "epicOff">No Epic ATs</button>
+<br>
+</div>
+
+<div class ="thre" id="RollTables">
+<h1>Step Three: Powers</h1>
+<button type="button" onclick="toggleButton('Blaster PrimaryTable')">Blaster Primary</button>
+<button type="button" onclick="toggleButton('Blaster SecondaryTable')">Blaster Secondary</button>
+<button type="button" onclick="toggleButton('Controller PrimaryTable')">Controller Primary</button>
+<button type="button" onclick="toggleButton('Defender PrimaryTable')">Defender Primary</button>
+<button type="button" onclick="toggleButton('Dominator SecondaryTable')">Dominator Secondary</button> 
+<button type="button" onclick="toggleButton('Mastermind PrimaryTable')">Mastermind Primary</button>
+<button type="button" onclick="toggleButton('Scrapper PrimaryTable')">Scrapper Primary</button>
+<button type="button" onclick="toggleButton('Scrapper SecondaryTable')">Scrapper Secondary</button>
+<button type="button" onclick="toggleButton('Stalker PrimaryTable')">Stalker Primary</button>
+<button type="button" onclick="toggleButton('Tank PrimaryTable')">Tank Primary</button>
+<button type="button" onclick="toggleButton('Tank SecondaryTable')">Tank Secondary</button>
+<br>
+</div>
+</section>
+<br>
+
+<br>
+
+
+</body>
+</html>
